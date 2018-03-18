@@ -1,0 +1,61 @@
+h1 {
+	font-family: helvetica neue;
+	font-size: 60px;
+	text-align: center;
+	font-weight: 100;
+	margin-top: 50px;
+}
+
+.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #581845;
+	text-align: center;
+}
+
+.nav li {
+	display:inline;
+	font-family: helvetica neue;
+	font-weight:200;
+}
+
+.nav a {
+	display: inline-block;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	background-color: #900C3F;
+	color: #FFC300;
+}
+
+#BlancoText {
+	width: auto;
+	padding:1%;
+}
+
+#BlancoImage {
+	float: left;
+	width: auto;
+	padding:0% 1% 0% 0%;	
+}
+
+#BushmasterHeading {
+	text-align: right;
+	margin: 1%;
+}
+
+#BushmasterText {
+	width: auto;
+	padding:1%;
+}
+
+#BushmasterImage {
+	float: right;
+	width: auto;
+	padding:0% 0% 5% 1%;	
+}
