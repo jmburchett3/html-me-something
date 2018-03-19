@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti');
+
 h1 {
 	font-family: helvetica neue;
 	font-size: 60px;
@@ -33,29 +35,84 @@ h1 {
 	color: #FFC300;
 }
 
-#BlancoText {
-	width: auto;
-	padding:1%;
+.h2heading {
+	font-family: 'Calligraffitti', cursive;
+	font-size:75px;
+	color: white;
+	margin: 0;
+	padding: 20px;
 }
 
-#BlancoImage {
+#BlancoHeading {
+	background:
+		linear-gradient(
+			rgba(0, 0, 0, 0.3),
+      		rgba(0, 0, 0, 0.3)
+      		),
+		url(http://theexaminer.com/sites/default/files/American%20Alligator-0056-2727.jpg);
+	background-size: cover;
+	width: 63%;
+	height: 600px;
+	margin: 10px 0 5px 10px;
+	position: relative;
 	float: left;
-	width: auto;
-	padding:0% 1% 0% 0%;	
+}
+
+#BlancoText {
+	width: 63%;
+	padding:5px 10px 0px 10px;
+	text-align: justify;
 }
 
 #BushmasterHeading {
-	text-align: right;
-	margin: 1%;
+	background:
+		linear-gradient(
+			rgba(0, 0, 0, 0.3),
+      		rgba(0, 0, 0, 0.3)
+      		),
+		url(https://www.joelsartore.com/assets/stock/ANI097/ANI097-00463-1920x1278.jpg);
+	background-size: cover;
+	width: 63%;
+	height: 600px;
+	margin: 5px 0 5px 10px;
+	position: relative;
+	float: left;
 }
 
 #BushmasterText {
-	width: auto;
+	width: 63%;
 	padding:1%;
+	text-align: justify;
 }
 
-#BushmasterImage {
-	float: right;
-	width: auto;
-	padding:0% 0% 5% 1%;	
+#SltgHeading {
+	background:
+		linear-gradient(
+			rgba(0, 0, 0, 0.3),
+      		rgba(0, 0, 0, 0.3)
+      		),
+		url(https://assets.wired.com/photos/w_1025/wp-content/uploads/2014/07/42-33052978.jpg);
+	background-size: cover;
+	width: 63%;
+	height: 600px;
+	margin: 5px 0 5px 10px;
+	position: relative;
+	float: left;
 }
+
+#SltgText {
+	width: 63%;
+	padding:1%;
+	text-align: justify;
+}
+
+#SltgImage2 {
+	width: 63%;
+	margin: 5px 0 5px 10px;
+}
+
+p {
+	font-family: helvetica;
+	font-size: 1em;
+}
+
